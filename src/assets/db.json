@@ -1,0 +1,31 @@
+{
+  "employee": [
+    {
+      "id": 100,
+      "name": "stive",
+      "doj": "10/02/1999",
+      "salary": "1000850",
+      "email": "stive@gmail.com"
+    }
+  ],
+  "user": [
+    {
+      "name": "Seraj Ahamad",
+      "pass": "apna passswork",
+      "email": "sdafas@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "Seraj Ahamad",
+      "pass": "asdfasdfasdfas",
+      "email": "asdfa@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "dasda",
+      "pass": "asdfas",
+      "email": "asdfasd@gmail.com",
+      "id": 3
+    }
+  ]
+}
