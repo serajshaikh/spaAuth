@@ -20,17 +20,17 @@
         <div class="col-lg-6 mb-5 mb-lg-0">
           <div class="card">
             <div class="card-body py-5 px-md-5">
-              <form>
+              <form [formGroup]="signInForm" (ngSubmit)="signIn()">
 
                 <!-- Email input -->
                 <div class="form-outline mb-4">
-                  <input type="email"  class="form-control" />
-                  <label class="form-label">Email address</label>
+                  <input type="text" formControlName="name" class="form-control" />
+                  <label class="form-label">name</label>
                 </div>
 
                 <!-- Password input -->
                 <div class="form-outline mb-4">
-                  <input type="password" class="form-control" />
+                  <input type="password" formControlName="pass" class="form-control" />
                   <label class="form-label">Password</label>
                 </div>
 
@@ -40,6 +40,7 @@
                 <button type="submit" class="btn btn-primary btn-block mb-4 m-3">
                   Sign In
                 </button>
+
                 <button type="submit" class="btn btn-primary btn-block mb-4 m-3">
                   <a style="color: white; text-decoration:none;" routerLink="register">New User</a> 
                 </button>

@@ -10,14 +10,14 @@
   ],
   "user": [
     {
-      "name": "Seraj Ahamad",
-      "pass": "apna passswork",
+      "name": "Seraj",
+      "pass": "apna",
       "email": "sdafas@gmail.com",
       "id": 1
     },
     {
       "name": "Seraj Ahamad",
-      "pass": "asdfasdfasdfas",
+      "pass": "asd",
       "email": "asdfa@gmail.com",
       "id": 2
     },
@@ -26,6 +26,12 @@
       "pass": "asdfas",
       "email": "asdfasd@gmail.com",
       "id": 3
+    },
+    {
+      "name": "s",
+      "pass": "1",
+      "email": "seraj@gmai.com",
+      "id": 4
     }
   ]
 }
