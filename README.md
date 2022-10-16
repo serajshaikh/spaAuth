@@ -1,4 +1,9 @@
 # SpaAuth
+## DESCRIPTIONS
+
+This project is based on authentication and about various API aspects(GET,POST,DELETE,PUT). 
+For this : login and registration components were  made and connected with Json server API.
+Updation of json files were made on each registration.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.5.
 
